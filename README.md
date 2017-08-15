@@ -22,7 +22,7 @@ $ docker pull ibmcom/datapower:latest
 
 Once the image is ready, create the container:
 ```sh
-$ cd dpanda
+$ cd dpanda.ide
 $ docker create -it \
   -v $PWD/config:/drouter/config \
   -v $PWD/local:/drouter/local \
